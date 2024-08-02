@@ -1091,7 +1091,8 @@ body {
    * FEATURE
    */
 
-  .feature-banner { max-width: max-content; }
+  .feature-banner { max-width: max-content;  display: flex; justify-content: center;     /* Center items horizontally */
+    align-items: center;  }
 
   .feature-list { gap: 30px; }
 
@@ -1390,7 +1391,9 @@ body {
    * REUSED STYLE
    */
 
-  .container { max-width: 1140px; }
+  .container { max-width: 1140px;               /* Use Flexbox layout */
+         /* Center items vertically */
+       }
 
   .section-title.text-center {
     max-width: 20ch;
